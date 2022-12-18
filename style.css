@@ -518,7 +518,7 @@ li:hover {
     .bottomAx {
         display: none;
     }
-    .bottomB {
+    .bottomA {
         display: none;
     }
     .bottomC {
@@ -576,8 +576,9 @@ li:hover {
     .footerLast>p {
         align-self: start;
     }
-    .nav2img.second {
+    .nav2img {
         height: 60px;
+        padding: 2px 3px;
     }
 
 }
