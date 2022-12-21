@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 nav {
     background-color: #e9e896; 
     display: flex;
@@ -194,7 +198,7 @@ li:hover {
 .myLearning {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 20px 25px;
     width: 100vw;
 }
 .myLearningLink {
@@ -338,6 +342,147 @@ li:hover {
 .bottomCDivSpanC>span {
     font-weight: bold;
 }
+
+
+
+
+.train {
+    padding: 20px 25px;
+    width: 100vw;
+}
+.training {
+    background-color: #1c1d1f;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trainingDiv1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trainingh4 {
+    color: white;
+    font-weight: bold;  
+    font-family: 'Roboto', sans-serif;
+    margin-right: 7px;
+}
+.spann {
+    color: #e7eff8;  
+}
+.trainingDiv2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.trainingDivBtn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+.trainingDivBtn1:hover {
+    background-color: lightgrey;
+    /* background-color: #2f3033; */
+}
+.trainingDivBtn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid white;
+}
+.trainingDivBtn2:hover {
+    background-color: #2f3033;
+}
+.topPicks {
+    margin-top: 18px;
+    padding: 20px 25px;
+    width: 100vw;
+}
+.topPicksh2 {
+    margin-top: 20px;
+}
+.topPicksh1 {
+    font-size: 35px;
+    font-family: 'Roboto Slab', serif;
+}
+.topPicksdiv {
+    border: 1px solid rgb(210, 208, 208);
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    gap: 30px;
+    padding: 20px;
+    margin-top: 10px;
+    height: 295px;
+}
+.topPicksdiv>img {
+    width: 40%;   
+}
+.topPicksdivdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.topPicksdivdivspan1 {
+    font-size: 16px;
+}
+.topPicksdivdivspan2 {
+    font-size: 14px;
+    opacity: .7;
+}
+.topPicksdivdivspan3 {
+    font-size: 14px;
+    opacity: .7;
+}
+.topPicksdivdivspan3a {
+    color: #041c1f;
+    font-weight: bold;
+}
+.topPicksdivdivspan4 {
+    color: #e9a73a;
+}
+.heey1 {
+    color: #b76b0e;
+}
+.heey2 {
+    font-size: 12px;
+    margin-right: 5px;
+}
+.heey {
+    font-size: 14px;
+    opacity: .7;
+    color: black;
+}
+.topPicksdivdivspan5 {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.topPicksdivdivspan5a {
+    opacity: .6;
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
 
 .footer {
     background-color: #1c1d1f;
@@ -524,6 +669,60 @@ li:hover {
     .bottomC {
         display: none;
     }
+
+
+
+    .training {
+        flex-direction: column;
+    }
+    .trainingDiv1 {
+        align-items: left;
+        flex-direction: column;
+    }
+    .trainingDiv2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .trainingDivBtn1 {
+        width: 80vw;
+        outline: none;
+    }
+    .trainingDivBtn2 {
+        width: 80vw;
+        outline: none;
+    }
+    .topPicks {
+        border: none;
+        margin-top: 5px;
+    }
+    .topPicksh1 {
+        font-size: 25px;
+        opacity: 2;
+    }
+    .topPicksh2 {
+        margin-top: 5px;
+    }
+    .topPicksdiv {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: none;
+        height: 520px;
+        padding: 0px;
+}
+    
+    .topPicksdiv>img {
+        width: 100%; 
+    }
+    .topPicksdivdiv>h1 {
+        font-size: 20px;
+    }
+
+    
+
+
+
     .footer {
         height: 800px;
     }
